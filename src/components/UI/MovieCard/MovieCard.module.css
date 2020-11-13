@@ -1,0 +1,58 @@
+.Card{
+    color: white;
+    border-radius: 9px;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: -1px -1px 19px -8px rgba(214,54,139,1);
+    -moz-box-shadow: -1px -1px 19px -8px rgba(214,54,139,1);
+    box-shadow: -1px -1px 19px -8px rgba(214,54,139,1);
+}
+
+.Card div:first-child{
+    width: 100%;
+}
+
+.poster{
+    width: 100%;
+}
+
+.Card div:last-child{
+    padding: 0 16px 15px;
+}
+
+.Card div:last-child h3{
+    padding: 15px 0;
+}
+
+.ratings{
+    background-color: rgba(214,54,139,1);
+    width: 80px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    position: absolute;
+    top: 20%;
+    transform: translateX(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in;
+}
+
+.ratings img{
+    width: 17px;
+}
+
+.Card:hover{
+    cursor: pointer;
+}
+
+.Card:hover{
+    background-color: rgba(214,54,139,1);
+}
+
+.Card:hover .ratings{
+    opacity: 1;
+    transform: translateX(0);
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: space-between;
+}

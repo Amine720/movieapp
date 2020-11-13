@@ -1,0 +1,20 @@
+.Wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px 100px;
+    grid-gap: 60px;
+}
+
+.date{
+    margin: 20px 100px 40px;
+}
+
+.date span{
+    margin-right: 15px;
+    font-size: 17px;
+}
+
+.date input{
+    padding: 3px;
+    font-size: 17px;
+}
